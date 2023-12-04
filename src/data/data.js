@@ -22,9 +22,9 @@ export const portfolio =[
       },
       {
         "id": 3,
-        "src": require("../images/shoecart.png"),
-        "title": "Shoe-Cart",
-        "description": "Simple add to cart in a ecommerce website using React js and Css",
+        "src": require("../images/portfolio.png"),
+        "title": "Portfolio",
+        "description": "Simple Portfolio website using React js and css",
         "link": "https://github.com/angelo-1"
       }
 ]
