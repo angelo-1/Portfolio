@@ -25,7 +25,7 @@ export const portfolio =[
         "src": require("../images/portfolio.png"),
         "title": "Portfolio",
         "description": "Simple Portfolio website using React js and css",
-        "link": "https://github.com/angelo-1"
+        "link": "https://github.com/angelo-1/Portfolio"
       }
 ]
 

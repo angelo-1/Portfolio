@@ -70,7 +70,7 @@ function ContactMe() {
           <label htmlFor="phone-number" className="contact--label">
             <span className="text-md">Phone-number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"

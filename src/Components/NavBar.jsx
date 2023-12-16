@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
 import { Link } from 'react-scroll'
-import logo from '../images/Angelo.png'
+
 
 
 
@@ -34,14 +34,13 @@ function NavBar() {
     <>
     <nav className={`navbar ${navActive ? "active" : ""}`}>
         <div>
-            {/* <img src={logo} alt="logo"/> */}
             <h2>ANGELO.</h2>
         </div>
-        <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+        <button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
             <span className='nav__hamburger__line'></span>
             <span className='nav__hamburger__line'></span>
             <span className='nav__hamburger__line'></span>
-        </a>
+        </button>
         <div className={`navbar--items ${navActive ? "active" : ""}`}>
             <ul>
                 <li>

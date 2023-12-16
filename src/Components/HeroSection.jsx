@@ -1,6 +1,6 @@
 import React from 'react'
 import heroimg from '../images/hero.png'
-import { FaWhatsapp,FaInstagram,FaGithubAlt,FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp,FaInstagram,FaGithub,FaLinkedinIn } from "react-icons/fa";
 import { Link } from 'react-scroll'
 function HeroSection() {
   return (
@@ -26,7 +26,7 @@ function HeroSection() {
                     </a></li >
                 <li className='social--media--github'>
                     <a href='https://github.com/angelo-1'>
-                        <FaGithubAlt className='social-items'/>
+                        <FaGithub className='social-items'/>
                     </a></li>
                 <li className='social--media--instagram'>
                     <a href="https://instagram.com/angelo.rajesh"><FaInstagram className='social-items'/></a>

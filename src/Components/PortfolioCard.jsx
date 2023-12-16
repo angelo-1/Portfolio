@@ -11,7 +11,7 @@ function PortfolioCard(props) {
                 <div className='portfolio--section--card--content'>
                     <p className='text-md'>{description}</p>
                     <div className='portfolio--btns'>
-                        <NavLink to="url.com" className="btn btn-outline-primary">View</NavLink>
+                        <NavLink to="/" className="btn btn-outline-primary">View</NavLink>
                         <NavLink to={link} className="btn btn-primary">Source</NavLink>
                     </div>
                 </div>
